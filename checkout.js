@@ -144,4 +144,11 @@ $(document).ready(function() {
             location.assign('./thankyou.html');
         })
     })
-})
+}) 
+$('#btn-place-order').click(function(){
+    if(CART.contents.length == 0)
+        alert("Please add items in the cart to place order.");
+    else
+    location.replace("./thankyou.html");
+}
+)
