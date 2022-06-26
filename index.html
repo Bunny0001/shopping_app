@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Assignment : E-commerce</title>
+
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+    <link rel="stylesheet" href="/style.css" />
+
+</head>
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="logo"><a href="/index.html"><span>Shop</span>lane</a></div>
+                <a href="./index.html#clothing-section">Clothing</a>
+                <a href="./index.html#accessory-section">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories"/>
+            </div>
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">0</p>
+                    <a href="/checkout.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <img src="./slider-images/92829440_2599244650354781_5120563394448982016_n (1).jpg" />
+            </div>
+        </nav>
+    </header>
+    <main>    
+        <section>
+            <div class="slideshow-container">
+                <div class="mySlides fade"><img src="./slider-images/96OnkX7 - Imgur.png"  alt="1" width="100%"></div>
+                <div class="mySlides fade"><img src="./slider-images/KtGxwnN - Imgur.png" alt="2" width="100%"></div>
+                <div class="mySlides fade"><img src="./slider-images/p0wdadG - Imgur.png" alt="3" width="100%"></div>
+                <div class="mySlides fade"><img src="./slider-images/undefined - Imgur.png" alt="4" width="100%"></div>
+                   
+                    <br>
+      
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                      <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                </div>
+            </div>
+    
+            
+        </section>
+    <!--cCARDS SECTION ________________________________________________
+     -->
+
+         <section id="clothing">
+           <h2 class="section-heading">Clothing for Men and Women</h2>
+           <div class="card-container" id="clothingCards"></div>
+         </section>
+         <!-- CLOTHING SECTION END -->
+         <!-- ACCESORIES SECTION START  -->
+         <section id="accessories">
+           <h2 class="section-heading">Accessories for Men and Women</h2>
+           <div class="card-container" id="accessoriesCards"></div>
+         </section>
+         </main>
+         <img id="edyoda-projects-logo" src="./slider-images/EdyodaLogo - Imgur.png" alt="EdYoda Projects Logo" />
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="/" class="footer-link">Men Clothing</a>
+            <a href="/" class="footer-link">Women Clothing</a>
+            <a href="/" class="footer-link">Men Accessories</a>
+            <a href="/" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="/" class="footer-link">Home</a>
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="/" class="footer-link">Zara</a>
+            <a href="/" class="footer-link">Pantaloons</a>
+            <a href="/" class="footer-link">Levis</a>
+            <a href="/" class="footer-link">UCB</a>
+            <a href="/" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="/" class="footer-link">Building 101</p>
+            <p href="/" class="footer-link">Central Avenue</p>
+            <p href="/" class="footer-link">LA - 902722</p>
+            <p href="/" class="footer-link">United States</p>
+        </div>
+    </footer>
+    <script src="./script.js" text="javascript"></script>
+</body>
+</html>
